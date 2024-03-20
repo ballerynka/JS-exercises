@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP | JS</title>
+    <style>
+
+        span,img{
+            vertical-align: middle;
+        }
+        span{
+            font-size: 1.2em;
+        }
+        h2{
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+
+</div>
+
+    <script>
+
+        let tempC = 15                   // number
+        let rainy = false
+        let sunny = true             //boolean
+        let geoLocation = 'Chisinau'     // string 
+        let icon= ""
+
+        if(rainy){ 
+            icon = 'https://icons.iconarchive.com/icons/jackietran/cloud/64/cloud-rain-icon.png'}
+
+
+         if(sunny){
+            icon = 'https://icons.iconarchive.com/icons/custom-icon-design/weather/64/Sunny-icon.png'
+         }   
+
+    container.innerHTML = 
+    `<h2>${geoLocation}</h2>
+    <img src="${icon}"/>
+    <span>${tempC} ℃</span>`
+
+
+
+    </script>
+    
+</body>
+</html>

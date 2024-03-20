@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROBO WALK | Game v1 | JS</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div id="gameMap"></div>
+
+
+
+    <div class="controls">
+    <button onclick="
+   
+ if(robotLeft * STEP < innerWidth - STEP * 2 && robotLeft * STEP > 0   ){
+    robotLeft--
+     renderBackward()}
+        ">⇦</button>
+    <button onclick="
+
+    if(robotLeft * STEP < innerWidth - STEP * 3 ){
+    robotLeft++
+     renderForward()}
+    ">⇨</button>
+    </div>
+
+
+
+<div id="gameMap2"></div>
+
+<div class="controls2">
+
+<button onclick="
+
+if(robot2Top * STEP < innerHeight - STEP * 4 && robot2Top * STEP > 0 ){
+robot2Top --
+renderTop()
+}
+
+
+">⇧</button>
+
+
+
+
+<button onclick="
+if(robot2Top * STEP < innerHeight - STEP * 5 ){
+robot2Top++
+renderBottom()}
+
+
+">⇩</button>
+    </div>
+
+
+
+
+
+    <script src="game.js"></script>
+
+</body>
+</html>

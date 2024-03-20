@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS example of adaptive page</title>
+</head>
+<style>
+    .title-large{
+         padding: 0.5em;
+        color: green;
+        text-align: center;
+    }
+    .title-medium{
+
+          padding: 0.5em;
+        color:red;
+        text-align: center;
+    }
+    .title-small{
+        padding: 0.5em;
+        color: purple;
+        text-align: center;
+
+    }
+</style>
+<body onresize="adapt()" onload="adapt()" >
+    <h1 id="heading"></h1>
+
+<!--
+
+BROWSER parse DOM
+
+<element id="identifier"> <------- variable identifier
+
+-->
+
+<script src="device-detector.js"></script>
+</body>
+</html>

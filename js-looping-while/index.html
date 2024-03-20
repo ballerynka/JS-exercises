@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Looping | While</title>
+</head>
+<style>
+    img{
+        width: 150px;
+    }
+    div{
+        width: 500px;
+        margin: 100px auto;
+    }
+
+
+</style>
+<body>
+
+
+ <div id="container">
+
+    <!--
+         <img src="images/1.jpg"> 
+    -->
+ </div>
+
+
+ <script>
+
+
+
+//--------------------- HW ----------------------//
+
+//-------------------- WHILE ---------------------//
+
+
+{
+
+ let  i = 1
+ 
+ 
+ while(i <= 9 ){
+    console.log(i)
+    container.innerHTML +=  `<img src="images/${i}.jpeg">${i}`
+    container.className = 'bottom'
+    if(i == 3){
+     container.innerHTML += '</br>'
+    }else if(i == 6){
+       container.innerHTML += '</br>'
+    }
+     i++
+ }
+
+}
+
+//------------------- descendent -----------------//
+
+
+{
+i = 9
+
+while(i >= 1){
+    console.log(i)
+    i--
+    
+}
+}
+  
+
+    </script>
+</body>
+</html>

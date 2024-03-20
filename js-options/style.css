@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(29, 8, 23);
+    color: rgb(199, 192, 192);
+    font: arial;
+}
+section{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+section h2{
+    text-align: center;
+}
+section div{
+    border: 1px solid #246;
+    padding: 2em;
+}
+section div.recommended{
+    background-color: #888;
+    border-color: rgb(14, 55, 64);
+}
+.selected{
+
+    background-color: #153335;
+    border-color: rgb(171, 3, 90);
+    color: rgb(243, 168, 82);
+}
+#costContainer{
+    text-align: center;
+    padding: 2em;
+}

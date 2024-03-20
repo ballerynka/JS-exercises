@@ -1,0 +1,60 @@
+
+
+body{
+    background-color: #678;
+ margin-top: 50px;
+    
+
+}
+#gameMap{
+    border: 3px solid white;
+    height: 128px;
+    background-color: #257;
+}
+
+#gameMap .robot{
+    width: 128px;
+    height: 128px;
+    background-image: url(images/Robot-icon.png);
+
+}
+#gameMap .wrench {
+    width: 128px;
+    height: 128px;
+    background-image: url(images/Tool-icon.png);
+
+}
+
+
+.controls{
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+#gameMap2 {
+    border: 3px solid white;
+    height: 700px;
+    width: 128px;
+    background-color: #257;
+}
+
+.controls2 {
+
+    padding: 30px;
+}
+
+#gameMap2 .robot2 {
+    width: 128px;
+    height: 128px;
+    background-image: url(images/Robot-icon.png);
+
+}
+
+#gameMap2 .wrench2 {
+    width: 128px;
+    height: 128px;
+    background-image: url(images/Tool-icon.png);
+
+}
